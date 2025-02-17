@@ -45,6 +45,7 @@ Once the application is running, you can access the API documentation via Swagge
 ```
 http://localhost:5264/swagger/index.html
 ```
+
 ### Running the Tests
 To run the tests locally:
 1. Navigate to the tests directory:
@@ -56,3 +57,12 @@ $cd Tests
 $dotnet test
 ```
 
+### Environment Variables
+You can change the environment variable default values in `Properties/launchSettings.json`
+
+| Key                                            | Default Value                                                                       | Description                                                            |
+|------------------------------------------------|-------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| BUSINESS_PHONE_NUMBER_SMS_LIMIT                | 100                                                                                 | Maximum number of SMS messages allowed per phone number.               |
+| ACCOUNT_SMS_LIMIT                              | 1000                                                                                | Maximum number of SMS messages allowed per account.                    |
+| PHONE_NUMBER_ACTIVE_DURATION_IN_HOURS          | 24                                                                                  | Duration (in hours) for which a phone number remains active.           |
+| DB_CONNECTION_String                           | Server=127.0.0.1;Port=3306;Database=SmsMessageDatabase;User=root;Password=password; | Connection string to the MySQL database.                               |
