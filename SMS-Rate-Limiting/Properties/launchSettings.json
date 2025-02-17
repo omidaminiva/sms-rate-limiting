@@ -1,0 +1,28 @@
+﻿{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "http": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": false,
+      "launchUrl": "swagger",
+      "applicationUrl": "http://localhost:5264",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "BUSINESS_PHONE_NUMBER_SMS_LIMIT": "100",
+        "ACCOUNT_SMS_LIMIT": "1000",
+        "PHONE_NUMBER_ACTIVE_DURATION_IN_HOURS": "24",
+        "DB_CONNECTION_String": "Server=127.0.0.1;Port=3306;Database=SmsMessageDatabase;User=root;Password=password;"
+      }
+    },
+    "https": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": false,
+      "applicationUrl": "https://localhost:7214;http://localhost:5264",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

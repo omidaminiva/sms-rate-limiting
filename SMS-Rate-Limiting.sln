@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMS-Rate-Limiting", "SMS-Rate-Limiting\SMS-Rate-Limiting.csproj", "{ECD33C9B-98FA-469A-8ADA-25CE72143389}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{1D9FC02D-A5B0-44A9-869D-A2D8B59AE0EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECD33C9B-98FA-469A-8ADA-25CE72143389}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECD33C9B-98FA-469A-8ADA-25CE72143389}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECD33C9B-98FA-469A-8ADA-25CE72143389}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECD33C9B-98FA-469A-8ADA-25CE72143389}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D9FC02D-A5B0-44A9-869D-A2D8B59AE0EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D9FC02D-A5B0-44A9-869D-A2D8B59AE0EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D9FC02D-A5B0-44A9-869D-A2D8B59AE0EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D9FC02D-A5B0-44A9-869D-A2D8B59AE0EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
